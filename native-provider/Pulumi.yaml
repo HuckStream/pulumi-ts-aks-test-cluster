@@ -1,0 +1,17 @@
+name: aks-test-native-provider
+runtime: nodejs
+description: Pulumi TypeScript project with Azure native provider
+config:
+  azure-native:location: eastus
+  namespace:
+    type: string
+    description: Namespace for resource naming and tagging
+    default: huckstream
+  environment:
+    type: string
+    description: Environment identifier (dev, staging, prod)
+    default: sbx
+  name:
+    type: string
+    description: Project name for resource identification
+    default: example-test
