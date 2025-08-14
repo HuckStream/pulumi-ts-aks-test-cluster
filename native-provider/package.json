@@ -1,0 +1,28 @@
+{
+  "name": "native-provider",
+  "version": "1.0.0",
+  "description": "Pulumi programs to deploy a test AKS cluster that is managed using Azure Native provider for behavior testing",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "pulumi up",
+    "preview": "pulumi preview",
+    "destroy": "pulumi destroy"
+  },
+  "dependencies": {
+    "@pulumi/azure-native": "^3.0.0",
+    "@pulumi/pulumi": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "pulumi",
+    "azure",
+    "typescript",
+    "infrastructure"
+  ],
+  "author": "",
+  "license": "MIT"
+}
