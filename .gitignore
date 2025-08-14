@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+bin/
+*.js
+*.js.map
+*.d.ts
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Log files and temporary files
+npm-debug.log*
+yarn-debug.log*
+*.log
+tmp/
+
+# Deal with environment files
+.env
+.env.*
+
+# We'll allow an example .env file which can be copied
+!.env.example
