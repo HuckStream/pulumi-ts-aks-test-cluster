@@ -1,0 +1,4 @@
+environment:
+  - azure/main
+config:
+  environment: main
