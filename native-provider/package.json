@@ -1,7 +1,11 @@
 {
-  "name": "native-provider",
-  "version": "1.0.0",
+  "name": "aks-test-native-provider",
+  "author": "Chris Koning <christopher.koning@gmail.com>",
+  "license": "MPL-2.0",
+  "version": "0.1.0",
   "description": "Pulumi programs to deploy a test AKS cluster that is managed using Azure Native provider for behavior testing",
+  "repository": "github:HuckStream/pulumi-ts-aks-test-cluster",
+  "bugs": "github:HuckStream/pulumi-ts-aks-test-cluster/issues",
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
@@ -22,7 +26,5 @@
     "azure",
     "typescript",
     "infrastructure"
-  ],
-  "author": "",
-  "license": "MIT"
+  ]
 }
