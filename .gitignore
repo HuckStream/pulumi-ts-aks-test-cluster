@@ -31,3 +31,6 @@ tmp/
 
 # We'll allow an example .env file which can be copied
 !.env.example
+
+# AI configuration files
+.claude
